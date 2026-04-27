@@ -1,23 +1,25 @@
-# Grocery-billing-system
-A console-based Grocery Billing System in C that calculates total cost, applies discounts, adds tax, and generates a bill with file export.
+# 🛒 Grocery Billing System (C)
 
-## Features
+A console-based application that simulates a grocery store billing system with automated calculations and bill generation.
+
+## 🚀 Features
 - Menu-driven item selection
-- Calculates subtotal automatically
-- Applies 5% discount for orders above Rs. 500
-- Adds 5% tax
-- Displays formatted bill
+- Automatic subtotal calculation
+- 5% discount on orders above Rs. 500
+- 5% tax calculation
+- Formatted bill display
 - Saves bill to a text file
 - Includes date & time of purchase
 
-## Concepts Used
-- Structures in C
+## 🛠️ Tech Used
+- C Programming
 - File Handling
-- Switch Case (Menu-driven logic)
-- Loops and Conditionals
+- Structures
 
-## How to Run
-1. Compile the program:
-   gcc main.c -o bill
-2. Run:
-   ./bill
+## 📸 Sample Output
+![Output](output1.jpg)
+
+## ▶️ How to Run
+```bash
+gcc grocery_billing_system.c -o bill
+./bill
